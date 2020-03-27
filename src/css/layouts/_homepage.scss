@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  z-index: 1;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+  div.info{
+
+      display: none;    
+
+}
+      div.info.show{
+     
+        display: block;
+
+        color: white;
+        margin-top: 5%;
+
+
+
+        width: 80%;
+        height: 70%;
+        font-weight: 700;
+        background-color: #FFDED8;
+        background:rgba(255,222,216,0.3);
+
+
+        tr{
+              
+          width: 100%;
+          height: 40px;
+
+          td{
+
+            width: 150px;
+
+          }
+
+          #exp{
+
+            display: flex;
+
+          }
+        }
+      }
+
+
+    div#bodyName{
+  
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+  

@@ -1,0 +1,46 @@
+body{
+	background-color: green;
+
+
+	div.bigContainer{
+
+		width: 100%;
+		
+		form{
+
+			color: white;
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+
+			input#search{
+
+				width: 94%;
+				outline: none;
+				color: #000;
+				font-size:20px;
+				padding-left:50px;
+				z-index: 9;
+			}
+
+			input#button{
+
+				background: #FFC1BB url("../images/magnifyingGlass.svg") no-repeat 14px center;
+				padding: 40px 15px 10px 50px;
+				border: solid 2px #FFF;
+			}
+			
+			input::-webkit-input-placeholder{
+
+				font-size: 20px;
+				font-color:#000;
+			}
+
+			input::-webkit-search-decoration,
+			input::-webkit-search-cancel-button {
+				display: none; 
+			}
+		}
+	}
+}
